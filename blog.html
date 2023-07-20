@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- създаване на раздели 1 Заглавие 2 за какво е блогът 3 Таблица 4 Списък 5 Медия 6 Контакти-->
+<html>
+    <head>
+        <title>Blog</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <button id="increment-btn" onclick="increment()"></button>
+        <script type="text/javascript" src="java2.js">
+        </script>
+        
+        <script>
+          
+           //var age = prompt("Write your age")
+           //var isOvereightteen = parseInt(age)>18;
+           //document.write("Your age is" +" "+age +"<Br>"+isOvereightteen);
+            var degCent;
+            var degFahren = Number(prompt("Enter Fahrenheit degree:",50));
+            degCent = 5/9 * (degFahren - 32);
+            document.write("The degree in cent is"+" "+degCent+"\xB0.")
+            if (degCent > 0)
+            {document.write("Above 0");}
+            if (degCent<=0){document.write("Attention! Beyond the freezing point. "); }
+            //Select 7 colors
+
+
+            </script>
+        <div class="section" id="header">
+            <img alt="" class="img-circle" src="https://www.travelmanagers.com.au/wp-content/uploads/2012/08/AdobeStock_254529936_Railroad-to-Denali-National-Park-Alaska_750x500.jpg">
+            <p>Nasko M</p>
+        </div>
+        <div class="section">
+            <h1><span>About</span></h1>
+            <p>This is a website about me</p>
+            <p class="quote">"Declare variables, not war"</p>
+
+
+        </div>
+        <div class="section">
+                <h1><span>Table</span></h1>
+                <table><tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thur</th>
+                    <th>Fri</th>
+                    </tr>
+                    <tr>
+                        <td>8-8:30</td>
+                        <td class="selected2">Learn</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td>8:30-9</td>
+                            <td></td>
+                            <td class="selected2">Fitness</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                    </tr>
+                </table>
+        </div>
+
+ <div class="section">
+        <h1><span>Skills</span></h1>
+        <ul>
+            <li>HTML<br/>
+            <progress min="0" max="100" value="80"></progress></li>
+            <li>C#<br/>
+             <progress min="0" max="100" value="50"></progress></li>
+        </ul>
+</div>
+<div class="round">
+    Rounded corners!
+</div>
+<div class="section">
+        <h1><span>Media</span></h1>
+        <iframe  width="300" height="150"  src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>
+
+</div>
+     
+<div class="section2" id="contacts">
+        <h1><span>Follow me</span></h1>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img alt="facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"></a>
+
+</div>
+<div class="section">
+        <h1><span>Contact Me</span></h1>
+        
+        <svg class="face" height="100" width="100">
+            <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+            <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+            <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+            <circle cx="30" cy="30" r="5" fill="#000000"/>
+            <circle cx="70" cy="30" r="5" fill="#000000"/>
+            <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+        </svg>
+             
+        <form>
+            <input name="name" placeholder="Name" type="text" required  /><br/>
+            <input name="email" placeholder="Email" type="email" required/><br/>
+            <textarea  name="message" placeholder="Message"  required ></textarea>
+            <input type="submit" value="Send" class="submit" />
+        </form>
+    </div>       
+        
+    
+    
+        
+</body>
